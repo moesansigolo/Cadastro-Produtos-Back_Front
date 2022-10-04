@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -1592,6 +1592,46 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Produtos.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Produtos.Domain": "1.0.0",
+          "Produtos.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Produtos.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Produtos.Aplication.dll": {}
+        }
+      },
+      "Produtos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Produtos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Produtos.Domain.dll": {}
+        }
+      },
+      "Produtos.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
+          "Produtos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Produtos.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Produtos.Persistence.dll": {}
         }
       }
     }
@@ -5925,6 +5965,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Produtos.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../Produtos.Aplication/Produtos.Aplication.csproj",
+      "msbuildProject": "../Produtos.Aplication/Produtos.Aplication.csproj"
+    },
+    "Produtos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Produtos.Domain/Produtos.Domain.csproj",
+      "msbuildProject": "../Produtos.Domain/Produtos.Domain.csproj"
+    },
+    "Produtos.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Produtos.Persistence/Produtos.Persistence.csproj",
+      "msbuildProject": "../Produtos.Persistence/Produtos.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5933,6 +5988,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
+      "Produtos.Aplication >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -5943,11 +5999,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
+      "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
       "projectName": "Produtos.API",
-      "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
+      "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
       "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-      "outputPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\obj\\",
+      "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5965,7 +6021,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj": {
+              "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

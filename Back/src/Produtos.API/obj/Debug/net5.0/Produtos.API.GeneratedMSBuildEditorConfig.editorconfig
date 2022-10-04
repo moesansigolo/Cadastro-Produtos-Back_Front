@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Produtos.API
-build_property.ProjectDir = d:\Produtos-Back-Front\Back\src\Produtos.API\
+build_property.ProjectDir = D:\Produtos-Back-Front\Back\src\Produtos.API\

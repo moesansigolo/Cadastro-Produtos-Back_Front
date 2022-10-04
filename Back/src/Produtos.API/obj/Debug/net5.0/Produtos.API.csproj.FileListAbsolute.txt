@@ -59,3 +59,9 @@ D:\Produtos-Back-Front\Back\src\Produtos.API\obj\Debug\net5.0\Produtos.API.dll
 D:\Produtos-Back-Front\Back\src\Produtos.API\obj\Debug\net5.0\ref\Produtos.API.dll
 D:\Produtos-Back-Front\Back\src\Produtos.API\obj\Debug\net5.0\Produtos.API.pdb
 D:\Produtos-Back-Front\Back\src\Produtos.API\obj\Debug\net5.0\Produtos.API.genruntimeconfig.cache
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Aplication.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Domain.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Persistence.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Aplication.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Domain.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Persistence.pdb

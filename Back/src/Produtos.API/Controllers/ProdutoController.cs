@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Produtos.API.Data;
-using Produtos.API.Models;
+using Produtos.Domain;
+using Produtos.Persistence;
 
 namespace Produtos.API.Controllers
 {
@@ -10,9 +10,9 @@ namespace Produtos.API.Controllers
     [Route("api/[controller]")]
     public class ProdutoController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly ProdutosContext _context;
 
-        public ProdutoController(DataContext context)
+        public ProdutoController(ProdutosContext context)
         {
             _context = context;
         }
@@ -26,7 +26,7 @@ namespace Produtos.API.Controllers
         [HttpGet("{id}")]
         public Produto GetById(int id)
         {
-            return _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
+            return _context.Produtos.FirstOrDefault(p => p.Id == id);
         }
     }
 }

@@ -29,7 +29,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj": {
+                "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -81,6 +85,199 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
+        "projectName": "Produtos.Aplication",
+        "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
+        "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
+        "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Moises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+                "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj"
+              },
+              "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj": {
+                "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "projectName": "Produtos.Domain",
+        "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
+        "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Moises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj",
+        "projectName": "Produtos.Persistence",
+        "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
+        "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Moises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+                "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

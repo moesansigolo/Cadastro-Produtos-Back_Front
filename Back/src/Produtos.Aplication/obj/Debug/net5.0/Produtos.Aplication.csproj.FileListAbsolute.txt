@@ -1,0 +1,17 @@
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Aplication.deps.json
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Aplication.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\ref\Produtos.Aplication.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Aplication.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.csproj.AssemblyReference.cache
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.AssemblyInfoInputs.cache
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.AssemblyInfo.cs
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.csproj.CoreCompileInputs.cache
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\ref\Produtos.Aplication.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Domain.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Persistence.dll
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Domain.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\bin\Debug\net5.0\Produtos.Persistence.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.Aplication\obj\Debug\net5.0\Produtos.Aplication.csproj.CopyComplete
