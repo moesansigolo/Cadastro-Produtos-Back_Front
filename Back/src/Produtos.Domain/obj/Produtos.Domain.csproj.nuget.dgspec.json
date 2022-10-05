@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {}
+    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {}
   },
   "projects": {
-    "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
         "projectName": "Produtos.Domain",
-        "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
         "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-        "outputPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\obj\\",
+        "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

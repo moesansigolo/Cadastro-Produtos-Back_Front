@@ -5508,11 +5508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
+      "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
       "projectName": "Produtos.Aplication",
-      "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
+      "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
       "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-      "outputPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\obj\\",
+      "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5531,11 +5531,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
-              "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj"
+            "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+              "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj"
             },
-            "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj": {
-              "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj"
+            "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj": {
+              "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj"
             }
           }
         }

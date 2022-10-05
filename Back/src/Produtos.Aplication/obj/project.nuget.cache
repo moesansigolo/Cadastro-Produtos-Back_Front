@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qMMefA2EtLe2T8Pf76hhF4Knn+DCJPo96m5yR50bQC5R4nWCNZOpfmwII4Y5lI3/WyB9k9AgCDQF5ukie3/TSw==",
+  "dgSpecHash": "6VHsKYWeAjxLQr1MpSoLNxwGydfTM2+VewjgGw9sRKFIVqSJLAseD/zTqPqpq6jd0A/RZ9wUuboLal9RyMZR/A==",
   "success": true,
-  "projectFilePath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
+  "projectFilePath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moises\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.4\\microsoft.aspnetcore.jsonpatch.5.0.4.nupkg.sha512",

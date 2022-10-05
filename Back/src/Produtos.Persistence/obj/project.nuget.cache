@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "48h0wtlxhTG+AjDApLbfhlm5JG+9G5bpMEzObiQdvYhkLB6vtFFfk1OWupsdfIW7I0RuADW2nJXhB+3IX4wbBw==",
+  "dgSpecHash": "ZZln5VCoy4gfkLUYE5WXKJDwExPIqXTlzcNCp37LlREbkC75shRLRx7bBcQAo1MoPnC4VnHvbLD/1vKIYMryqQ==",
   "success": true,
-  "projectFilePath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj",
+  "projectFilePath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Persistence\\Produtos.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moises\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.4\\microsoft.aspnetcore.jsonpatch.5.0.4.nupkg.sha512",

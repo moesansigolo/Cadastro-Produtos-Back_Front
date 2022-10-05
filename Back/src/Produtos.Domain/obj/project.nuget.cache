@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w1hz3USqVMh8xVqshyO4buLSlHKtP49GaNC+k0trGsK7j9XIvIjUgrVU+ChcGImVPdupvYINFDppkMNvlW8Bhg==",
+  "dgSpecHash": "P9n4aVhvQtZgOGoP9QNx9xpqmlaCkRujJEdpV3B/IMkPqFh+gPrqR88sm4szt0120AxDOsUM5XK+L33wfvN7cQ==",
   "success": true,
-  "projectFilePath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+  "projectFilePath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.4\\microsoft.aspnetcore.jsonpatch.5.0.4.nupkg.sha512",
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.4\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.4.nupkg.sha512",

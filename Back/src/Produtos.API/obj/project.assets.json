@@ -5713,11 +5713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
+      "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
       "projectName": "Produtos.API",
-      "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
+      "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\Produtos.API.csproj",
       "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-      "outputPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\obj\\",
+      "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5736,8 +5736,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj": {
-              "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj"
+            "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj": {
+              "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Aplication\\Produtos.Aplication.csproj"
             }
           }
         }
