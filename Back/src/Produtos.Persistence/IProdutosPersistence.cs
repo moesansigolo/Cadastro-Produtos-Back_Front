@@ -15,12 +15,12 @@ namespace Produtos.Persistence
         //EVENTOS
         Task<Produto[]> GetAllProdutosByNomeAsync(string nome, bool incluiFornecedor);
         Task<Produto[]> GetAllProdutosAsync( bool incluiFornecedor);
-        Task<Produto> GetAllProdutoByIdAsync(int ProdutoId, bool incluiFornecedor);
+        Task<Produto> GetProdutoByIdAsync(int produtoId, bool incluiFornecedor);
 
         //FORNECEDORES
         Task<Fornecedor[]> GetAllFornecedoresByNomeAsync(string nome, bool incluiProdutos);
         Task<Fornecedor[]> GetAllFornecedoresAsync( bool incluiProdutos);
-        Task<Fornecedor> GetAllFornecedorByIdAsync(int FornecedorId, bool incluiProdutos);
+        Task<Fornecedor> GetAllFornecedorByIdAsync(int fornecedorId, bool incluiProdutos);
 
 
     }

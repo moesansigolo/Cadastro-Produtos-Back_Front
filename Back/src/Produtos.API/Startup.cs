@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Produtos.Aplication;
+using Produtos.Aplication.Contratos;
 using Produtos.Persistence;
 
 namespace Produtos.API
@@ -24,7 +26,9 @@ namespace Produtos.API
             services.AddDbContext<ProdutosContext>(
                 context => context.UseSqlServer(Configuration.GetConnectionString("stringConexao"))
             );            
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddScoped<IProdutoService, ProdutoService>(); 
+            services.AddScoped<IProdutosPersistence, ProdutosPersistence>();
             services.AddCors();
             services.AddSwaggerGen(c =>
             {

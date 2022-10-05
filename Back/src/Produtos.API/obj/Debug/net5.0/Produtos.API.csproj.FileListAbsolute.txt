@@ -65,3 +65,6 @@ D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Persisten
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Aplication.pdb
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Domain.pdb
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Persistence.pdb
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

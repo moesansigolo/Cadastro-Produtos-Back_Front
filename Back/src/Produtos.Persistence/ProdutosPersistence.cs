@@ -11,6 +11,7 @@ namespace Produtos.Persistence
         public ProdutosPersistence(ProdutosContext context)
         {
             _context = context;
+            _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             
         }
         public void Add<T>(T entity) where T : class
@@ -40,7 +41,7 @@ namespace Produtos.Persistence
 
          public async Task<Produto[]> GetAllProdutosAsync(bool incluiFornecedores = false)
         {
-            IQueryable<Produto> query = _context.Produtos.Include(p => p.NomeProduto);
+            IQueryable<Produto> query = _context.Produtos;
 
             if (incluiFornecedores)
             {
@@ -53,7 +54,7 @@ namespace Produtos.Persistence
         
         public async Task<Produto[]> GetAllProdutosByNomeAsync(string nome, bool incluiFornecedor = false)
         {
-            IQueryable<Produto> query = _context.Produtos.Include(p => p.NomeProduto);
+            IQueryable<Produto> query = _context.Produtos;
 
             if (incluiFornecedor)
             {
@@ -66,9 +67,9 @@ namespace Produtos.Persistence
             
         }
 
-         public async Task<Produto> GetAllProdutoByIdAsync(int produtoId, bool incluiFornecedor = false)
+         public async Task<Produto> GetProdutoByIdAsync(int produtoId, bool incluiFornecedor = false)
         {
-            IQueryable<Produto> query = _context.Produtos.Include(p => p.NomeProduto);
+            IQueryable<Produto> query = _context.Produtos;
 
             if (incluiFornecedor)
             {

@@ -13,8 +13,6 @@ namespace Produtos.Domain
         public DateTime DataInclusao { get; set; } 
         public DateTime DataValidade { get; set; }
         public string ImageUrl { get; set; }
-        public string Telefone { get; set; }        
-        public string Email { get; set; }
         public IEnumerable<FornecedorProduto> FornecedoresProdutos { get; set; }
     
     }

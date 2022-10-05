@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {}
+    "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
+    "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "projectUniqueName": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
         "projectName": "Produtos.Domain",
-        "projectPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
+        "projectPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\Produtos.Domain.csproj",
         "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-        "outputPath": "D:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\obj\\",
+        "outputPath": "d:\\Produtos-Back-Front\\Back\\src\\Produtos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
