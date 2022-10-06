@@ -68,3 +68,4 @@ D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Produtos.Persisten
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Produtos-Back-Front\Back\src\Produtos.API\bin\Debug\net5.0\package-lock.json
